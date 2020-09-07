@@ -169,9 +169,13 @@ function hideDiv() {
 }
 
 function showDiv() {
-    div = document.getElementById('myLetter');
-    div.style.display = "block";
+  var e = document.getElementById("myLetter");
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
 }
+
 
 function submitLetter(){
   hideDiv();
