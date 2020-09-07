@@ -1,27 +1,185 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
 <body>
 
-First Name: <input type="text" id="myText" value="Mickey">
-Last Name: <input type="text" id="myTextL" value="Whatever">
+<div id= "myDIV">
+time you woke today
+<br> </br>
+<input type="text" id="q1" value="">
+<br> </br>
+how far we are from eachother
+<br> </br>
+<input type="text" id="q2" value="">
+<br> </br>
+release a bad recent event 
+<br> </br>
+<input type="text" id="q3" value="">
+<br></br>
+last time you cried
+<br> </br>
+<input type="text" id="q4" value="">
+<br> </br>
+earliest memory
+<br> </br>
+<input type="text" id="q6" value="">
+<br> </br>
+favorite song 
+<br> </br>
+<input type="text" id="q7" value="">
+<br></br>
+describe our love
+<br> </br>
+<input type="text" id="q8" value="">
+<br> </br>
+how long you've known me
+<br> </br>
+<input type="text" id="q9" value="">
+<br> </br>
+worst memory with me
+<br> </br>
+<input type="text" id="q10" value="">
+<br> </br>
+best memory with me 
+<br> </br>
+<input type="text" id="q11" value="">
+<br></br>
+worst secret
+<br> </br>
+<input type="text" id="q12" value="">
+<br> </br>
+your biggest dream
+<br> </br>
+<input type="text" id="q13" value="">
+<br> </br>
+annoying habit
+<br> </br>
+<input type="text" id="q14" value="">
+<br> </br>
+least favorite part of yourself
+<br> </br>
+<input type="text" id="q15" value="">
+<br> </br>
 
-<p>Click the button to display the value of the value attribute of the text field.</p>
+<button onclick="submitLetter()">read my letter</button>
 
-<button onclick="myFunction()">Try it</button>
 
-<p id="demo"></p>
-<p id="demo2"></p>
+</div>
+
+
+<div id= "myLetter">
+<p>heyyyy</p>
+<p id="a1"></p>
+<p id="a2"></p>
+<p id="a3"></p>
+<p id="a4"></p>
+<p id="a14"></p>
+<p id="a6"></p>
+<p id="a7"></p>
+<p id="a8"></p>
+<p id="a9"></p>
+<p id="a10"></p>
+<p id="a11"></p>
+<p id="a12"></p>
+<p id="a13"></p>
+</div>
+
+
 
 <script>
 function myFunction() {
-  var x = document.getElementById("myText").value;
-  document.getElementById("demo").innerHTML = x;
-  var y = document.getElementById("myTextL").value;
-  document.getElementById("demo2").innerHTML = y;
-  var d1 = document.getElementById('demo');
-d1.insertAdjacentHTML('beforeend', ' two');
+  var x = document.getElementById("q1").value;
+  document.getElementById("a1").innerHTML = x;
+  var y = document.getElementById("q2").value;
+  document.getElementById("a2").innerHTML = y;
+  var z = document.getElementById("q3").value;
+  document.getElementById("a3").innerHTML = z;
+  var a = document.getElementById("q4").value;
+  document.getElementById("a4").innerHTML = a;
+  var b = document.getElementById("q14").value;
+  document.getElementById("a14").innerHTML = b;
+  var c = document.getElementById("q6").value;
+  document.getElementById("a6").innerHTML = c;
+  var d = document.getElementById("q7").value;
+  document.getElementById("a7").innerHTML = d;
+  var e = document.getElementById("q8").value;
+  document.getElementById("a8").innerHTML = e;
+  var f = document.getElementById("q9").value;
+  document.getElementById("a9").innerHTML = f;
+  var g = document.getElementById("q10").value;
+  document.getElementById("a10").innerHTML = g;
+  var h = document.getElementById("q11").value;
+  document.getElementById("a11").innerHTML = h;
+  var i = document.getElementById("q12").value;
+  document.getElementById("a12").innerHTML = h;
+  var j = document.getElementById("q13").value;
+  document.getElementById("a13").innerHTML = j;
+  var k = document.getElementById("q15").value;
+  document.getElementById("a15").innerHTML = k;
+
+
+
+
+
+
+
+  var d1 = document.getElementById('a1');
+d1.insertAdjacentHTML('beforebegin', 'I woke up startled at');
+  var l2 = document.getElementById('a1');
+l2.insertAdjacentHTML('beforeend', ' and my first thought was of your absence. I never thought I’d miss someone like I miss you when we’re');
+var l3 = document.getElementById('a2');
+l3.insertAdjacentHTML('beforeend', 'from each other. I know');
+var l4 = document.getElementById('a3');
+l4.insertAdjacentHTML('beforeend', '. That must’ve felt like a thousand knives through the fleshiest part of your heart. Life is so raw all the time. I know you cried');
+var l5 = document.getElementById('a4');
+l5.insertAdjacentHTML('beforeend', 'I could feel it and it scratched at my insides. You said your earliest memory was “');
+var l6 = document.getElementById('a14');
+l6.insertAdjacentHTML('beforeend', '“ how beautiful it is to remember and how hard it is to forget. Some may say judge by my demeanor that my love is too carnal. I would say they’re right. ');
+var l7 = document.getElementById('a6');
+l7.insertAdjacentHTML('beforeend', 'will always remind me of you + bring me to the floor long after this passes. Our love is');
+var l8 = document.getElementById('a7');
+l8.insertAdjacentHTML('beforeend', 'and trusting the magic in that is too big to ignore. It’s beautiful our');
+var l9 = document.getElementById('a8');
+l9.insertAdjacentHTML('beforeend', 'relationship has included');
+var l10 = document.getElementById('a9');
+l10.insertAdjacentHTML('beforeend', 'and');
+var l11 = document.getElementById('a10');
+l11.insertAdjacentHTML('beforeend', '. I love all the different versions of yourself that you’ve revealed in our time. I will not be able to forget them. If you ever told me ');
+var l12 = document.getElementById('a11');
+l12.insertAdjacentHTML('beforeend', ' I would still welcome you into my arms and when you ');
+var l13 = document.getElementById('a12');
+l13.insertAdjacentHTML('beforeend', 'I will be here celebrating for you. I love how you');
+var l15 = document.getElementById('a13');
+l15.insertAdjacentHTML('beforeend', 'even when you think I might not. I love your');
+var l1 = document.getElementById('a14');
+d1.insertAdjacentHTML('beforeend', 'enough for both of us. I am thinking of you. Goodbye.');
 }
+
+
+function hideDiv() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showDiv() {
+    div = document.getElementById('myLetter');
+    div.style.display = "block";
+}
+
+function submitLetter(){
+  hideDiv();
+  myFunction();
+  showDiv();
+}
+
 </script>
 
 </body>
+
 </html>
