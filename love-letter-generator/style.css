@@ -1,5 +1,8 @@
-#myLetter {display: none;}
 
 body{
-    background: blue;
+    background-color: blue;
+    p: red;
+}
+#myLetter {
+    display: none;
 }
