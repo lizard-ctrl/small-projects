@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+First Name: <input type="text" id="myText" value="Mickey">
+Last Name: <input type="text" id="myTextL" value="Whatever">
+
+<p>Click the button to display the value of the value attribute of the text field.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+<p id="demo2"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = x;
+  var y = document.getElementById("myTextL").value;
+  document.getElementById("demo2").innerHTML = y;
+  var d1 = document.getElementById('demo');
+d1.insertAdjacentHTML('beforeend', ' two');
+}
+</script>
+
+</body>
+</html>
